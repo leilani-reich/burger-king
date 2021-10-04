@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Kanit">
   <link rel="stylesheet" href="/assets/bk/fonts-bk.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -17,8 +19,8 @@
       <a class="item">Offers</a>
       <a class="item">Restaurants</a>
       <a class="item">Careers</a>
-      <div class="ui fixed dropdown item">
-        <div class="text"> More</div>
+      <div class="ui dropdown item">
+        <div class="text"> More </div>
         <i class="dropdown icon"></i>
         <div class="menu">
           <a class="item">About BK</a>
@@ -61,17 +63,18 @@
 <div class="section-1-2-between">
 <img class="ui image phone" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/57382e9feb53d08237fa988a570efdff1602d6ff-912x1267.png?w=1440&q=40&fit=max&auto=format">
 </div>
+
 <div class="section2">
   <div class="ui list">
   <div class="item">Save $$$</div>
   <div class="item">With offers on</div>
   <div class="item">demand</div>
     <a class="right ui black label b-label">
-      <div class="item" style="font-size: 10px; font-weight: 200">Download on the</div>
+      <div class="item" style="font-size: 10px; font-weight: 200; margin-bottom: 3px">Download on the</div>
       <div class="item"><i class="apple icon"></i> App store</div>
     </a>
     <a class="right ui black label b-label">
-      <div class="item" style="font-size: 10px; font-weight: 200">GET IT ON</div>
+      <div class="item" style="font-size: 10px; font-weight: 200; margin-bottom: 3px; text-align: center">GET IT ON</div>
       <div class="item"><i class="left google play icon"></i>Google play</div>
     </a>
     </div>
@@ -156,8 +159,11 @@
       <div class="item">TM & Copyright 2021 Burger King Corporation. All Rights Reserved.</div>
     </div>
   </div>
-
 </div>
 
+<script>
+  $('.ui.dropdown')
+    .dropdown();
+</script>
 </body>
 </html>
