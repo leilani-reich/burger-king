@@ -19,10 +19,6 @@ body {
   background-color: rgb(245, 235, 220);
 }
 
-.tiny.ui.image {
-  margin-left: 265px;
-}
-
 .round {
   border-radius: 15px 15px 15px 15px;
   margin-right: 20px;
@@ -60,7 +56,7 @@ body {
 .section2 .ui.list {
   color: rgb(80, 35, 20);
   float: right;
-  margin-right: 350px;
+  margin-right: 300px;
   margin-top: 100px;
   font-family: "Flame bold", kanit, sans-serif;
   font-weight: 900;
@@ -115,7 +111,7 @@ hr {
 p {
   color: rgb(80, 35, 20);
   float: right;
-  margin-left: 500px;
-  margin-right: 225px;
+  margin-left: 12%;
+  margin-right: 12%;
   width: 500px;
 }
