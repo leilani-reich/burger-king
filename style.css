@@ -55,3 +55,22 @@ body {
   height: 700px;
   margin-left: 300px;
 }
+
+.section2 .ui.list {
+  color: rgb(80, 35, 20);
+  font-size: 56px;
+  font-weight: 900;
+  float: right;
+  margin-right: 500px;
+  margin-top: 100px;
+  font-family: "Flame bold", sans-serif;
+}
+
+.b-label {
+  height: 50px;
+}
+
+.item .text {
+  float: right;
+}
+
