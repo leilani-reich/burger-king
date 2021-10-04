@@ -74,3 +74,16 @@ body {
   float: right;
 }
 
+.footer {
+  background-color: rgb(43, 2, 0);
+  color: rgb(245, 235, 220);
+  height: 400px;
+}
+
+.ui.medium.header {
+  color: rgb(245, 235, 220);
+}
+
+.ui.column .item {
+color: rgb(187, 163, 145);
+}
