@@ -19,7 +19,7 @@ body {
 }
 
 .tiny.ui.image {
-  margin-left: 330px;
+  margin-left: 185px;
 }
 
 .round {
@@ -58,16 +58,16 @@ body {
 
 .section2 .ui.list {
   color: rgb(80, 35, 20);
-  font-size: 56px;
   font-weight: 900;
+  font-size: 50px;
   float: right;
-  margin-right: 500px;
+  margin-right: 350px;
   margin-top: 100px;
   font-family: "Flame bold", sans-serif;
 }
 
 .b-label {
-  height: 50px;
+  height: 40px;
 }
 
 .item .text {
@@ -77,7 +77,7 @@ body {
 .footer {
   background-color: rgb(43, 2, 0);
   color: rgb(245, 235, 220);
-  height: 400px;
+  height: 600px;
 }
 
 .ui.medium.header {
@@ -86,4 +86,33 @@ body {
 
 .ui.column .item {
 color: rgb(187, 163, 145);
+}
+
+.ui.four.column.grid.container  .ui.column{
+  padding-top: 90px;
+  padding-bottom: 60px;
+  size: 50px;
+  font-size: 15px;
+}
+
+hr {
+  align-content: center;
+  width: 1130px;
+}
+
+.ui.menu {
+  border: none;
+  background-color: rgb(43, 2, 0);
+}
+
+.ui.one.column.grid.container .item {
+  background-color: rgb(43, 2, 0);
+  color: rgb(245, 235, 220);
+}
+
+p {
+  float: right;
+  margin-left: 500px;
+  margin-right: 185px;
+  width: 500px;
 }
