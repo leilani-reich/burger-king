@@ -15,12 +15,11 @@
 }
 
 body {
-  background-color: rgb(245, 235, 220);
   font-family: "Flame Sans", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .tiny.ui.image {
-  margin-left: 320px;
+  margin-left: 330px;
 }
 
 .round {
@@ -32,6 +31,27 @@ body {
   font-size: 10px;
 }
 
-.six.wide.column {
-  
+.six.wide.column img {
+  border-radius: 15px 15px 15px 15px;
+  border: white 2px solid;
+}
+
+.section1 {
+  background-color: rgb(245, 235, 220);
+  height: 800px;
+}
+
+.section-1-2-between {
+  background-color: rgb(245, 235, 220);
+  height: 80px;
+}
+
+.section2 {
+  background-color: rgb(239, 225, 204);
+  height: 1000px;
+}
+
+.phone {
+  height: 700px;
+  margin-left: 300px;
 }
